@@ -93,7 +93,7 @@ Sample appointment entry:
 
 ## Variables available
 
-Following variables can be used while creating recurring items.  Most of them are used to define dates dynamically (If you need new ones, you can embed them into function “EvaluateFolder”).
+Following variables can be used while creating recurring items.  Most of them are used to define dates dynamically (If you need new ones, you can embed them into codes of function “EvaluateFolder”).
 
 Variables should be entered in square brackets.  See samples below.
 
@@ -106,25 +106,26 @@ Sample appointment entry:
 ![image](https://user-images.githubusercontent.com/59412630/178559467-adfdb6af-cddb-46e4-9fab-a00c598f874a.png)
 
  
-## Other Remarks
-**Before installing, you should create file "appSettings.xml" in folder 'c:\temp' and save below lines in it.**
-**Addin will also create empty txt files in C:\temp folder to determine if a task is run before to avoid duplicate submissions in some cases.** 
+## Installation and Other Remarks
+**Before installing, you should create file "appSettings.xml" in folder 'c:\temp' and save below lines in it.  If this step is skipped installation will fail.**
+**Addin will also create empty txt files in C:\temp folder to determine if a task is run before.  This will help to avoid duplicate submissions in some cases.** 
   ```
 <appSettings>
     <add key="holidays" value="29.10.2022, 30.08.2022, 15.07.2022, 12.07.2022, 11.07.2022, 19.05.2022, 04.05.2022, 03.05.2022, 02.05.2022" />
   </appSettings>
   ```
-**These are the non-working days in current year and needed to determine correct reporting dates.**  
+**Above dates are the holidays in current year and needed to determine correct reporting dates.**  
 **There is also a button on the addin's ribbon to open and update this xml file anytime.**
+**Functions are fired with appointments' reminder popups.  If a reminder is not dismissed after first popup, linked tasks can be run again with the second reminder popups.  For some cases I am checking if it is run before to avoid duplications, however, my recommendation is dismissing reminders after first popups to avoid unintended e-mail submission. 
 
 ## Addin's ribbon
 Below ribbon will show up after installation.
 
 ![image](https://user-images.githubusercontent.com/59412630/178563039-189b42d4-2039-4256-a07b-80a7d54849fa.png)
 
-- If you want to pause addin's tasks for some time, you can turn it off from ribbon.
+- If you want to pause addin's tasks for some time, you can turn it off from this ribbon without deactivating or uninstalling addin.  
 - Above given documentation is also available from ribbon's function help tab.
-- User-defined macros can be added to addin and easyly be called from macro buttons in ribbon.
+- User-defined macros can be added to addin and easily be called from macro buttons in ribbon.
 
 
 
