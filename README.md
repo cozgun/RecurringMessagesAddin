@@ -116,7 +116,7 @@ Sample appointment entry:
   ```
 **Above dates are the holidays in current year and needed to determine correct reporting dates.**  
 **There is also a button on the addin's ribbon to open and update this xml file anytime.**
-**Functions are fired with appointments' reminder popups.  If a reminder is not dismissed after first popup, linked tasks can be run again with the second reminder popups.  For some cases I am checking if it is run before to avoid duplications, however, my recommendation is dismissing reminders after first popups to avoid unintended e-mail submission. 
+**Functions are fired with appointments' reminder popups.  If a reminder is not dismissed after first popup, linked tasks can be run again with the second reminder popups.  For some cases I am checking if it is run before to avoid duplications, however, my recommendation is dismissing reminders after first popups to avoid unintended e-mail submission.**
 
 ## Addin's ribbon
 Below ribbon will show up after installation.
