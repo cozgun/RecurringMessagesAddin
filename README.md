@@ -6,7 +6,7 @@ As a finance professional I have developed and been using a modified version of 
 
 Addin is offering four main functions.  
 
-## 1. Sending plain e-mail messages without attachments.
+## 1. Sending plain e-mail messages without attachments
 
 Function Name: 
 Send Recurring Email
@@ -28,7 +28,7 @@ Sample appointment entry:
 ![image](https://user-images.githubusercontent.com/59412630/178556239-4d1cbcd3-661c-45e3-b6cf-8ee256cc3b2d.png)
 
 
-## 2. Sending e-mail messages with attachments.
+## 2. Sending e-mail messages with attachments
 Function Name: 
 Send Recurring Email with Attachment
 
@@ -49,7 +49,7 @@ Sample appointment entry:
 
 ![image](https://user-images.githubusercontent.com/59412630/178555866-86e45aab-ce97-4ef7-95c3-d4e2086ce633.png)
 
-## 3. Checking proofs for critical tasks and informing team members accordingly.
+## 3. Checking proofs for critical tasks and informing team members accordingly
 Function Name: 
 Check Proof File
 
@@ -71,7 +71,7 @@ Sample appointment entry:
 
 ![image](https://user-images.githubusercontent.com/59412630/178557948-40af6492-79b2-48b4-b397-6c8258385135.png)
 
-## 4. Checking proofs and informing only absence.
+## 4. Checking proofs and informing only absence
 Function Name: 
 Check Proof and Inform Only Absence
 
@@ -91,5 +91,18 @@ Sample appointment entry:
 
 ![image](https://user-images.githubusercontent.com/59412630/178557812-ca0607c2-f377-4a1c-bae6-30625c3282d5.png)
 
+## Variables available
 
+Following variables can be used while creating recurring items.  Most of them are used to define dates dynamically (If you need new ones, you can embed them into function “EvaluateFolder”).
+
+Variables should be entered in square brackets.  See samples below.
+
+![image](https://user-images.githubusercontent.com/59412630/178559920-07ce832c-ae26-4c85-9f66-580ad83607c4.png)	
+
+Sample appointment entry:
+**Below entry will return “C:\Reports\202206\Daily\30\” on July, 1st.
+
+![image](https://user-images.githubusercontent.com/59412630/178559467-adfdb6af-cddb-46e4-9fab-a00c598f874a.png)
+
+ 
 
