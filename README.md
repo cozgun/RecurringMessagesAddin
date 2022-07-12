@@ -100,7 +100,8 @@ Variables should be entered in square brackets.  See samples below.
 ![image](https://user-images.githubusercontent.com/59412630/178559920-07ce832c-ae26-4c85-9f66-580ad83607c4.png)	
 
 Sample appointment entry:
-**Below entry will return “C:\Reports\202206\Daily\30\” on July, 1st.
+
+**Below entry will return “C:\Reports\202206\Daily\30\” on July, 1st.**
 
 ![image](https://user-images.githubusercontent.com/59412630/178559467-adfdb6af-cddb-46e4-9fab-a00c598f874a.png)
 
