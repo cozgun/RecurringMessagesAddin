@@ -20,12 +20,16 @@ How to use:
 -	You should enter your e-mail subject into appointment’s title field
 -	Select (or first create) category named “SendRecurringEmail”.
 -	Turn on reminder.  Set recurrence frequency and all done.
--	When the appointment’s reminder pops out macro/function will run.
+-	When the appointment’s reminder pops out macro/function will run and e-mail will be sent.
 -	You should dismiss the reminder after it pops out to avoid possible duplicate e-mail submissions. 
 
 Sample appointment entry:
 
 ![image](https://user-images.githubusercontent.com/59412630/178556239-4d1cbcd3-661c-45e3-b6cf-8ee256cc3b2d.png)
+
+Output:
+
+![image](https://user-images.githubusercontent.com/59412630/180506969-5472d51d-3db6-4082-b8c6-44b1b111e5a5.png)
 
 
 ## 2. Sending e-mail messages with attachments
@@ -48,6 +52,12 @@ How to use:
 Sample appointment entry:
 
 ![image](https://user-images.githubusercontent.com/59412630/178555866-86e45aab-ce97-4ef7-95c3-d4e2086ce633.png)
+
+
+Output:
+
+![image](https://user-images.githubusercontent.com/59412630/180511337-5ec735a4-001d-4486-a3cf-14a524db9cd7.png)
+
 
 ## 3. Checking proofs for critical tasks and informing team members accordingly
 Function Name: 
