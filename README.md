@@ -1,8 +1,10 @@
 # Outlook Addin: Recurring E-mail Messages # 
 *This is an Outlook addin for setting up recurring e-mail messages by using calendar appointments. 
-Dealing with dynamic dates is possible with embedded date variables.*
+Finding and sending files named with dynamic dates is possible with embedded date variables.*
 
-As a finance professional I have developed and been using a modified version of this addin for some time in my day to day tasks.  This is a generic version for others' use regardless of the field of profession performed. 
+
+I am a finance professional and have been using a customized version of this addin for some time in my day to day tasks.  
+This is a generic version for others' use regardless of the field of profession performed. 
 
 Addin is offering four main functions.  
 
