@@ -64,7 +64,7 @@ Function Name:
 Check Proof File
 
 Description:
-There might be some tasks need to be completed by cut-off times throughout a day.  Missing any of these cut-offs could lead some troubles with counterparties or penalties imposed by regulators.  Therefore, saving a proof (a screenshot in jpg format) after completion provides kind of an insurance against possible incidents.  
+There might be some tasks need to be completed by cut-off times throughout a day.  Missing any of these cut-offs could lead some troubles with counterparties or penalties imposed by regulators.  Therefore, saving a proof (a screenshot in jpg format) after completion of task provides kind of an insurance against possible incidents.  
 “Check Proof File” function looks for these jpg files at specific times of day.  If it does not find the proof file, sends an e-mail to recipients (team members in most cases) with a text message of “… file not found, task may not be completed”. 
 If it finds the file, attaches it to an e-mail and sends to recipients with a text message of “… task is completed.  Click to see proof / screenshot.” 
 
