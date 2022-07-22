@@ -81,6 +81,17 @@ Sample appointment entry:
 
 ![image](https://user-images.githubusercontent.com/59412630/178557948-40af6492-79b2-48b4-b397-6c8258385135.png)
 
+Success result output:
+
+![image](https://user-images.githubusercontent.com/59412630/180516051-1b736a0d-5d69-4344-8f7b-8f8a310e8311.png)
+
+
+Error result output:
+
+![image](https://user-images.githubusercontent.com/59412630/180516289-61cfc10a-f0a5-4f61-a4f2-371b461124e4.png)
+
+
+
 ## 4. Checking proofs and informing only absence
 Function Name: 
 Check Proof and Inform Only Absence
