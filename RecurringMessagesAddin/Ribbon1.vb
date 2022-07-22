@@ -69,27 +69,32 @@ Public Class Ribbon1
         End If
     End Sub
     Private Sub Button7_Click(sender As Object, e As RibbonControlEventArgs) Handles Button7.Click
-        Dim fileName = AppDomain.CurrentDomain.BaseDirectory & "SendRecurringEmail.pdf"
+        'Dim fileName = AppDomain.CurrentDomain.BaseDirectory & "SendRecurringEmail.pdf"
+        Dim fileName = "https://github.com/cozgun/RecurringMessagesAddin#1-sending-plain-e-mail-messages-without-attachments"
         Process.Start(fileName)
     End Sub
 
     Private Sub Button11_Click(sender As Object, e As RibbonControlEventArgs) Handles Button11.Click
-        Dim fileName = AppDomain.CurrentDomain.BaseDirectory & "SendRecurringEmailWithAttachment.pdf"
+        'Dim fileName = AppDomain.CurrentDomain.BaseDirectory & "SendRecurringEmailWithAttachment.pdf"
+        Dim fileName = "https://github.com/cozgun/RecurringMessagesAddin#2-sending-e-mail-messages-with-attachments"
         Process.Start(fileName)
     End Sub
 
     Private Sub Button12_Click(sender As Object, e As RibbonControlEventArgs) Handles Button12.Click
-        Dim fileName = AppDomain.CurrentDomain.BaseDirectory & "CheckProofFile.pdf"
+        'Dim fileName = AppDomain.CurrentDomain.BaseDirectory & "CheckProofFile.pdf"
+        Dim fileName = "https://github.com/cozgun/RecurringMessagesAddin#3-checking-proofs-for-critical-tasks-and-informing-team-members-accordingly"
         Process.Start(fileName)
     End Sub
 
     Private Sub Button13_Click(sender As Object, e As RibbonControlEventArgs) Handles Button13.Click
-        Dim fileName = AppDomain.CurrentDomain.BaseDirectory & "CheckProofFileAndInformOnlyAbsence.pdf"
+        'Dim fileName = AppDomain.CurrentDomain.BaseDirectory & "CheckProofFileAndInformOnlyAbsence.pdf"
+        Dim fileName = "https://github.com/cozgun/RecurringMessagesAddin#4-checking-proofs-and-informing-only-absence"
         Process.Start(fileName)
     End Sub
 
     Private Sub Button14_Click(sender As Object, e As RibbonControlEventArgs) Handles Button14.Click
-        Dim fileName = AppDomain.CurrentDomain.BaseDirectory & "Variables.pdf"
+        Dim fileName = "https://github.com/cozgun/RecurringMessagesAddin#variables-available"
+        'Dim fileName = AppDomain.CurrentDomain.BaseDirectory & "Variables.pdf"
         Process.Start(fileName)
     End Sub
 

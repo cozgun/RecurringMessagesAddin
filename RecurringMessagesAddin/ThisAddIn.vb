@@ -180,7 +180,7 @@ EarlyExit:
         End If
         objMsg.To = recipients
         objMsg.Subject = vamsg
-        objMsg.Body = "File " & fullFileName & " not found. " & vbNewLine & vbNewLine & file & " task may not be completed !"
+        objMsg.Body = "File " & fullFileName & " not found. " & vbNewLine & vbNewLine & "Task may not be completed !"
         objMsg.Send()
         objMsg = Nothing
 
