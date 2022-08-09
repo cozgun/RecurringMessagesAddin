@@ -151,4 +151,5 @@ Below ribbon will show up after installation.
 - User-defined macros can be added to addin and easily be called from macro buttons in ribbon.
 
 
-
+# For my other software studies,
+[visit cozgun.github.io](cozgun.github.io)
