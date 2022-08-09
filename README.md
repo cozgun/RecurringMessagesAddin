@@ -152,4 +152,4 @@ Below ribbon will show up after installation.
 
 
 # For my other software studies,
-[visit cozgun.github.io](cozgun.github.io)
+[visit cozgun.github.io](https://cozgun.github.io)
